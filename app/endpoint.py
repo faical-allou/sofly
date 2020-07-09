@@ -11,8 +11,10 @@ from models.extractdata import *
 
 if os.environ.get('ON_HEROKU'):
     dufftoken = os.environ.get("DUFFEL_TOKEN", default=False)
+    kiwi_apikey = os.environ.get("kiwi_apikey", default=False)
 else :
     dufftoken = DUFFEL_TOKEN
+    kiwi_apikey = KIWI_APIKEY
 
 extractdata = extractdata()
 
