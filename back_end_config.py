@@ -1,2 +1,3 @@
-DUFFEL_TOKEN = 'xx'
-connectionStringDatabase = "xxx"
+DUFFEL_TOKEN = 'xxxx'
+kiwi_apikey = 'xx'
+connectionStringDatabase = "X"
