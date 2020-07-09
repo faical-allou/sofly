@@ -51,5 +51,6 @@ def check():
 @app.route('/webhook',methods=['GET', 'POST'])
 def read_stuff():
     json_request = request.get_json(force=True, silent=False, cache=True)
+    print('here is the message')
     print(json_request)
-    return json_request
+    return "went through"
